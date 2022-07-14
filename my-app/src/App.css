@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.editable-row .ant-form-item-explain {
+  position: absolute;
+  top: 100%;
+  font-size: 12px;
+}
+
+/* Table CSS */
+#table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table td,
+#table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#table tr:hover {
+  background-color: #ddd;
+}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+#table button {
+  margin-left: 10px;
+}
+
+/* Modal CSS */
+.modal-title {
+  text-align: center;
+}
+
+.modal-form .modal-input {
+  margin-bottom: 20px;
+  min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-form .modal-input input {
+  width: 80%;
+}
+
+.modal-form .modal-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.modal-form .modal-button button {
+  padding: 5px 20px;
+}
+
+.modal-form .modal-button button:first-child {
+  background-color: #ddd;
+  border: 1px solid #ddd;
+}
+
+.modal-form .modal-button button:last-child {
+  margin-left: 20px;
+  background-color: #04aa6d;
+  color: white;
+  border: 1px solid #04aa6d;
+}
